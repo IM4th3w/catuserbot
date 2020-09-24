@@ -37,9 +37,7 @@ async def set_not_afk(event):
     if "afk" not in current_message and "on" in USERAFK_ON:
         shite = await borg.send_message(
             event.chat_id,
-            "__Back alive!__\n**No Longer afk.**\n `Was afk for:``"
-            + total_afk_time
-            + "`",
+           "⛔️NON ROMPERE IL CAZZO❗️❗️\n❗️SE MI VA TI CAGO , PERO SE SPAMMI TI BLOCCO\n❗️Se vedi che ti cago significa o che sei inportante , oppure e l ubot\n- - - - - - - - - - - - - - - - - - - - -\n⛔️ I'm offline right now!\n🔅 I will answer you as soon as possible, thanks for waiting!\n❗️If you see the double tick on the messages, I didn't see them, I'm in developer mode!",
         )
         if BOTLOG:
             await borg.send_message(
